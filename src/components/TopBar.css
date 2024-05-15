@@ -1,0 +1,19 @@
+.navLink {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.navLink:hover {
+    background-color: #eee;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}

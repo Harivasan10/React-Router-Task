@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+padding: 10px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.container .navLink:hover{
+  color: rgb(7, 205, 21);
+}
+a{
+  color: black;
+}
+.card-title a:hover{
+  color: rgb(24, 111, 24);
+}
+.container #card:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
